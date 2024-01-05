@@ -1,0 +1,41 @@
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 200px;
+}
+nav> ul{
+   display: flex;
+   align-items: center;
+}
+nav li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 50px;
+    text-align: center;
+   
+}
+nav li a{
+    text-decoration: none;
+}
+.btn-primary{
+    background-color: rgb(248, 158, 24);
+    border-radius: 5px;
+    padding:  10px;
+    border: 0;
+}
+#sk{
+    font-size: 40px;
+}
+#K{
+    color: brown;
+}
+
+.header{
+    background-color: antiquewhite;
+}
+.banner{
+   display: flex; 
+   padding: 30px 30px 30px 150px;
+   align-items: center;
+}
