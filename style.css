@@ -21,6 +21,10 @@ nav li {
 
 nav li a {
     text-decoration: none;
+    color: rgb(121, 121, 5);
+}
+nav li a:hover{
+    color: rgb(248, 158, 24);
 }
 
 .btn-primary {
@@ -44,6 +48,7 @@ nav li a {
     background-image: url('/images/header_bg.png');
     background-repeat: no-repeat;
     background-position: bottom right;
+   border-bottom: 5px solid rgb(235, 152, 98);
 
 }
 
@@ -78,6 +83,7 @@ nav li a {
 main {
     max-width: 1140px;
     margin: 0 auto;
+
 }
 
 main section {
@@ -95,7 +101,7 @@ main section {
 .section-taitle {
     font-size: 40px;
     margin: 10px;
-    color: rgb(130, 103, 4);
+    color: rgb(215, 171, 11);
     text-align: center;
 
 }
@@ -104,6 +110,12 @@ main section {
     justify-content: center;
     font-size: 20px;
     margin-bottom: 20px;
+}
+.section-pra1{
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 20px; 
+    color: white;
 }
 
 .about-info-contenar {
@@ -132,11 +144,13 @@ main section {
     font: bold;
 
 }
-
+.What-i-do{
+    margin-top: 40px;
+}
 .what {
     display: flex;
     margin: 0 auto;
-    gap: 24px;
+    gap: 30px;
 
 }
 
@@ -146,6 +160,7 @@ main section {
     border-radius: 10px;
     margin-top: 15px;
     align-items: center;
+    background-color: rgb(229, 224, 217);
     box-shadow: 0px 0px 5px 7px rgb(181, 181, 248);
 
 }
@@ -194,3 +209,67 @@ fieldset {
     border-radius: 15px;
     background-color: rgba(230, 217, 157, 0.742);
 }
+/* footer{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    background-color:antiquewhite;
+    gap: 70px;
+    padding: 100px 150px 70px 150px ;
+} */
+.foot-cont{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    background-color:antiquewhite;
+    gap: 70px;
+    padding: 100px 150px 70px 150px ;
+}
+.footer-coloum{
+    margin: 20px;
+    width: 50%;
+    
+}
+.foot-info-cont{
+    font-size: 30px;
+}
+.foot-from input, textarea{
+    display: block;
+    margin-bottom: 15px;
+    padding: 15px 35px;
+    border: 0;
+    border-radius: 5px;
+    box-shadow: 0 0 3px 3px #757575;
+    width: 100%;
+}
+#sub{
+    background-color: aquamarine;
+}
+.foot-link li{
+    font-size: 20px;
+}
+.foot-info-description{
+    font-size: 25px;
+}
+.copy{
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    background-color: black;
+    color: aquamarine;
+}
+html {
+    --s: 50px;
+    --c: #191b22;
+    --_s: calc(2*var(--s)) calc(2*var(--s));
+    --_g: 35.36% 35.36% at;
+    --_c: #0000 66%,#20222a 68% 70%,#0000 72%;
+    background: 
+      radial-gradient(var(--_g) 100% 25%,var(--_c)) var(--s) var(--s)/var(--_s), 
+      radial-gradient(var(--_g) 0 75%,var(--_c)) var(--s) var(--s)/var(--_s), 
+      radial-gradient(var(--_g) 100% 25%,var(--_c)) 0 0/var(--_s), 
+      radial-gradient(var(--_g) 0 75%,var(--_c)) 0 0/var(--_s), 
+      repeating-conic-gradient(var(--c) 0 25%,#0000 0 50%) 0 0/var(--_s), 
+      radial-gradient(var(--_c)) 0 calc(var(--s)/2)/var(--s) var(--s) var(--c);
+    background-attachment: fixed;
+  }
