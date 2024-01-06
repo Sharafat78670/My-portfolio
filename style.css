@@ -36,13 +36,15 @@ nav li a{
 .header{
     background-color: antiquewhite;
     background-image: url('images/header_bg.png');
+    background-image: url('images/developer.png');
     background-repeat: no-repeat;
     background-position: bottom right;
+    background-position: 10px 10px ;
 
 }
 .banner{
    display: flex; 
-   padding: 30px 30px 0px 150px;
+   padding: 30px 30px 0px 180px;
    align-items: center;
    justify-content: space-between;
 }
@@ -128,7 +130,28 @@ main section{
   box-shadow:0px 0px 5px 7px rgb(181, 181, 248);
    
 }
+
+.resumi-taitle{
+    font-size: 35px;
+    color: brown;
+}
 .resumi-info-contenir{
     display: flex;
    justify-content: space-around;
+   gap: 50px;
+   padding: 30px;
+   
+   
+}
+.resumi-cont{
+   
+}
+.resumi-p,.resumi-h3{
+  color: rgba(19, 15, 15, 0.719);
+}
+.resumi-cont hr{
+    margin: 30px;
+}
+#Download{
+margin: 0 auto;
 }
