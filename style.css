@@ -168,8 +168,9 @@ main section {
 .resumi-taitle {
     font-size: 35px;
     color: rgb(97, 77, 4);
-    box-shadow: 0 0 3px 3px  rgb(130, 103, 4);
-    box-sizing:  ;
+    background-color: rgb(245, 244, 235);
+    box-shadow: 0 0 3px 3px  rgb(225, 215, 182);
+   
 
 }
 
@@ -207,7 +208,8 @@ legend {
 fieldset {
     border: 5px solid rgb(53, 52, 3);
     border-radius: 15px;
-    background-color: rgba(230, 217, 157, 0.742);
+    background-color: rgba(219, 209, 163, 0.742);
+    /* background-color: rgb(237, 237, 184); */
 }
 /* footer{
     display: flex;
