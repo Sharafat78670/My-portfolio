@@ -128,3 +128,7 @@ main section{
   box-shadow:0px 0px 5px 7px rgb(181, 181, 248);
    
 }
+.resumi-info-contenir{
+    display: flex;
+   justify-content: space-around;
+}
