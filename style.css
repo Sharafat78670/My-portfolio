@@ -2,7 +2,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0 200px;
+    margin: 0 150px;
 
 }
 
@@ -46,9 +46,9 @@ nav li a:hover {
 
 .header {
     background-color: antiquewhite;
-    background-image: url('/images/header_bg.png');
+    background-image: url('/images/header_bg.png'),url('/images/developer.png');
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right, top left;
     border-bottom: 5px solid rgb(235, 152, 98);
 
 }
@@ -101,6 +101,7 @@ main section {
     background-color: rgb(237, 237, 184);
     margin: 40px 0 0 0;
     border-radius: 10px;
+    box-shadow: 0 0 7px 4px rgb(215, 171, 11);
 
 }
 
@@ -174,6 +175,7 @@ main section {
 
 }
 
+
 .resumi-taitle {
     font-size: 35px;
     color: rgb(97, 77, 4);
@@ -195,11 +197,15 @@ main section {
 
 .resumi-p,
 .resumi-h3 {
-    color: rgba(19, 15, 15, 0.719);
+    color: rgba(39, 37, 34, 0.982);
+    margin-top: 5px;
+    margin-bottom: 0;
 }
 
 .resumi-cont hr {
-    margin: 30px;
+    padding: 50px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 
 }
 
@@ -256,7 +262,7 @@ textarea {
     padding: 15px 35px;
     border: 0;
     border-radius: 5px;
-    box-shadow: 0 0 3px 3px #757575;
+    box-shadow: 0 0 6px 3px #757575;
     width: 100%;
 }
 
@@ -266,12 +272,15 @@ textarea {
 
 .foot-link li {
     font-size: 20px;
+    color: #403e3e;
 }
 
 .foot-info-description {
     font-size: 25px;
 }
-
+.social-link a{
+    margin-right: 40px;
+}
 .copy {
     width: 100%;
     padding: 10px;
